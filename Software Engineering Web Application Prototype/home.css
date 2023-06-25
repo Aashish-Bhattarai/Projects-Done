@@ -1,0 +1,231 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.bimg {
+    padding-left: 505px;
+}
+
+.bimg img {
+    max-width: 400px;
+    max-height: 150px;    
+}
+
+.himg {
+    padding-left: 490px;
+}
+
+.himg img {
+    max-width: 300px;
+    max-height: 100px;    
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 30px 0;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    max-width: 75px; 
+    max-height: 50px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Booking */
+.booking {
+    background-color: #f7f7f7;
+    padding: 15px 0;
+}
+
+.booking h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.booking form {
+    max-width: 600px;
+    margin: 0 auto;
+     
+}
+
+.booking label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.booking input,
+.booking select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.booking button[type="button"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.booking button[type="button"]:hover {
+    background-color: #0069d9;
+}
+
+/* Hire Vehicle */
+.hire-vehicle {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.hire-vehicle h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.hire-vehicle form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hire-vehicle label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hire-vehicle input,
+.hire-vehicle select {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.hire-vehicle button[type="button"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.hire-vehicle button[type="button"]:hover {
+    background-color: #0069d9;
+}
+
+.training {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+}
+
+.training p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.training button {
+    margin-top: 20px;
+}
+
+.bback {
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+    border: black;
+    border-radius: 25px;
+    display: block;
+    padding: 1%;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .bback:hover{
+    
+    transform: scale(1);
+    text-transform: uppercase;
+  }
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+    margin-top: 80px;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+}
+
+
+
+
+
+
+

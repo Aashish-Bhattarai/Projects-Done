@@ -1,0 +1,117 @@
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font family and size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  height: 100%;
+}
+
+/* Style header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style logo */
+.logo img {
+  width: 35px;
+  display: inline-block;
+}
+
+/* Style form section */
+.form {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+/* Style form container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Style form title */
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Style form labels */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style form inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Style select dropdown arrow */
+select::-ms-expand,
+select::-ms-value {
+  display: none;
+}
+
+/* Style form button */
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+.bback {
+  margin-top: 10px;
+  margin-left: 20px;
+  float: left;
+  border: black;
+  border-radius: 25px;
+  display: block;
+  padding: 1%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.bback:hover{
+  
+  transform: scale(1);
+  text-transform: uppercase;
+}
+
+/* Style footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin-top: 80px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}

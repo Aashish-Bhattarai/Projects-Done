@@ -1,0 +1,15 @@
+
+.video-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    width: 95%; /* Cover 95% of the screen width */
+    margin: 0 auto; /* Center horizontally if screen width is less than 95% */
+  }
+  
+  iframe {
+    margin-top: 40px;
+    width: 100%;
+    height: 650px; /* Fixed height of 100px */
+    border-radius: 10px;
+  }
+  

@@ -1,0 +1,21 @@
+/* Style for the navigation bar */
+.navbar {
+  background-color: gray;
+  text-align: center;
+  padding: 20px 0; /* Increase vertical padding */
+}
+
+/* Style for the navigation links */
+.nav-link {
+  margin: 0 20px; /* Add horizontal margin to space out the links */
+  text-decoration: none; /* Remove underlines from links */
+  color: whitesmoke; /* Set the default color for links */
+  transition: color 0.3s; /* Smooth color transition on hover */
+  font-size: 28px; /* Increase the font size */
+  padding: 10px 20px; /* Increase padding around the text */
+}
+
+/* Change the link color on hover */
+.nav-link:hover {
+  color: rgba(79, 196, 79, 0.843);
+}
